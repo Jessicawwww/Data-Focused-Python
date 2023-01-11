@@ -1,0 +1,51 @@
+Futures   Contract   Contract   Futures     Options   Options
+Code      Month      Type       Exp Date    Code      Exp Date
+-------   --------   --------   --------    -------   --------
+CL        2018-12    Fut        2018-11-19            
+CL        2019-01    Fut        2018-12-19            
+CL        2019-02    Fut        2019-01-22            
+CL        2019-03    Fut        2019-02-20            
+...
+CL        2020-11    Fut        2020-10-20            
+CL        2020-12    Fut        2020-11-20            
+CL        2018-12    Opt                    LO        2018-11-14
+CL        2019-01    Opt                    LO        2018-12-14
+CL        2019-02    Opt                    LO        2019-01-16
+CL        2019-03    Opt                    LO        2019-02-14
+...
+CL        2020-11    Opt                    LO        2020-10-15
+CL        2020-12    Opt                    LO        2020-11-17
+Futures   Contract   Contract   Strike   Settlement
+Code      Month      Type       Price    Price
+-------   --------   --------   ------   ----------
+CL        2018-12    Fut                      67.59
+CL        2019-01    Fut                      67.75
+CL        2019-02    Fut                      67.84
+...
+CL        2020-10    Fut                      64.77
+CL        2020-11    Fut                      64.58
+CL        2020-12    Fut                      64.39
+CL        2018-12    Call         5.50        62.13
+CL        2018-12    Put          5.50         0.01
+CL        2018-12    Call         6.00        61.63
+CL        2018-12    Put          6.00         0.01
+CL        2018-12    Call         6.50        61.13
+CL        2018-12    Put          6.50         0.01
+CL        2018-12    Call         7.00        60.63
+CL        2018-12    Put          7.00         0.01
+...
+CL        2018-12    Call        66.00         2.53
+CL        2018-12    Put         66.00         0.94
+CL        2018-12    Call        66.50         2.20
+CL        2018-12    Put         66.50         1.11
+CL        2018-12    Call        67.00         1.90
+CL        2018-12    Put         67.00         1.31
+CL        2018-12    Call        67.50         1.63
+CL        2018-12    Put         67.50         1.54
+CL        2018-12    Call        68.00         1.38
+CL        2018-12    Put         68.00         1.79
+...
+CL        2020-12    Call       280.00         0.00
+CL        2020-12    Put        280.00       215.57
+CL        2020-12    Call       300.00         0.00
+CL        2020-12    Put        300.00       235.57
